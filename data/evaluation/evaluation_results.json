@@ -1,0 +1,2353 @@
+{
+  "summary": {
+    "total_questions": 40,
+    "successful_questions": 33,
+    "failed_questions": 7,
+    "success_rate": 0.825,
+    "overall_reliability_score": 0.8943,
+    "metric_averages": {
+      "retrieval_relevance": 0.8941,
+      "answer_correctness": 0.7314,
+      "groundedness": 0.9741,
+      "citation_correctness": 0.9775
+    },
+    "per_scheme_scores": {
+      "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana": {
+        "total_questions": 10,
+        "successful_questions": 10,
+        "failed_questions": 0,
+        "success_rate": 1.0,
+        "overall_reliability": 0.9486,
+        "retrieval_relevance": 0.9193,
+        "answer_correctness": 0.8967,
+        "groundedness": 0.9786,
+        "citation_correctness": 1.0
+      },
+      "PM SVANidhi": {
+        "total_questions": 10,
+        "successful_questions": 8,
+        "failed_questions": 2,
+        "success_rate": 0.8,
+        "overall_reliability": 0.8768,
+        "retrieval_relevance": 0.8739,
+        "answer_correctness": 0.7202,
+        "groundedness": 0.9582,
+        "citation_correctness": 0.955
+      },
+      "PMFBY": {
+        "total_questions": 10,
+        "successful_questions": 8,
+        "failed_questions": 2,
+        "success_rate": 0.8,
+        "overall_reliability": 0.8925,
+        "retrieval_relevance": 0.9142,
+        "answer_correctness": 0.6886,
+        "groundedness": 0.982,
+        "citation_correctness": 0.985
+      },
+      "PMUY 2.0": {
+        "total_questions": 10,
+        "successful_questions": 7,
+        "failed_questions": 3,
+        "success_rate": 0.7,
+        "overall_reliability": 0.8591,
+        "retrieval_relevance": 0.8689,
+        "answer_correctness": 0.6201,
+        "groundedness": 0.9776,
+        "citation_correctness": 0.97
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "PMFBY_001",
+      "scheme": "PMFBY",
+      "question": "What is the main objective of PMFBY?",
+      "reference_answer": "PMFBY aims to provide financial protection against crop losses caused by natural disasters, pests and diseases through crop insurance.",
+      "generated_answer": "Based on the provided context, the objectives of PMFBY are:\n\n* To provide financial assistance and support to farmers suffering from crop damage or loss arising out of unforeseen events.\n* To stabilise the income of farmers and ensure continuance in farming.\n* To encourage the farmers to adopt modern and innovative agricultural practices.\n* To ensure crop diversification, and credit-worthiness of the farmers, enhance growth and competitiveness of the agriculture sector, and protect the farmers from production risks.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p1_c02",
+          "score": 0.597599983215332,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "diseases. PMFBY provides crop insurance at a cost-effective premium to all Indian farmers. PMFBY is an affordable crop insurance product implemented through a network of insurance companies and banks."
+        },
+        {
+          "chunk_id": "PMFBY_p1_c04",
+          "score": 0.5637999773025513,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "● * For the farmers in North-Eastern States, Jammu, Kashmir, and Himachal Pradesh, the government also pays the entire premium. ● Comprehensive Coverage: The scheme covers natural disasters (droughts,"
+        },
+        {
+          "chunk_id": "PMFBY_p1_c03",
+          "score": 0.5526000261306763,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "practices. ● To ensure crop diversification, and credit-worthiness of the farmers, enhance growth and competitiveness of the agriculture sector and protect the farmers from production risks. Benefits "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.5270000100135803,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9486,
+      "answer_correctness": 0.7868,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9339,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_002",
+      "scheme": "PMFBY",
+      "question": "What is the maximum farmer premium for Kharif food and oilseed crops under PMFBY?",
+      "reference_answer": "The maximum farmer premium is 2%.",
+      "generated_answer": "Based on the provided documents, the maximum premium payable by the farmer for Kharif food and oilseed crops under PMFBY is 2%.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p1_c03",
+          "score": 0.8294000029563904,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "practices. ● To ensure crop diversification, and credit-worthiness of the farmers, enhance growth and competitiveness of the agriculture sector and protect the farmers from production risks. Benefits "
+        },
+        {
+          "chunk_id": "PMFBY_p1_c02",
+          "score": 0.6373999714851379,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "diseases. PMFBY provides crop insurance at a cost-effective premium to all Indian farmers. PMFBY is an affordable crop insurance product implemented through a network of insurance companies and banks."
+        },
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.6301000118255615,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.6280999779701233,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9379,
+      "answer_correctness": 0.8122,
+      "groundedness": 0.925,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9188,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_003",
+      "scheme": "PMFBY",
+      "question": "Are tenant farmers and sharecroppers eligible for PMFBY?",
+      "reference_answer": "Yes. All farmers, including tenant farmers and sharecroppers, growing notified crops in notified areas can be eligible, subject to the stated conditions.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.7171000242233276,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.617900013923645,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        },
+        {
+          "chunk_id": "PMFBY_p4_c19",
+          "score": 0.6164000034332275,
+          "source_document": "PMFBY.pdf",
+          "page_number": 4,
+          "snippet": "landslide, but neighboring villages were unaffected? How long after reporting crop damage should I expect to receive the claim amount? If I've taken a bank loan for farming, do I need to separately ap"
+        },
+        {
+          "chunk_id": "PMFBY_p3_c11",
+          "score": 0.6049000024795532,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Losses resulting from farmer negligence, non-compliance with recommended agricultural practices, or failure to protect the crop adequately may be excluded. Losses Beyond Specified Limits Some losses b"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 4
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.8869,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.7217,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMFBY_004",
+      "scheme": "PMFBY",
+      "question": "What is the maximum farmer premium for Rabi food and oilseed crops?",
+      "reference_answer": "The maximum farmer premium is 1.5%.",
+      "generated_answer": "Based on the provided context, the maximum premium payable by the farmer for Rabi food and oilseed crops is 1.5%.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p1_c03",
+          "score": 0.7397000193595886,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "practices. ● To ensure crop diversification, and credit-worthiness of the farmers, enhance growth and competitiveness of the agriculture sector and protect the farmers from production risks. Benefits "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.49309998750686646,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p1_c01",
+          "score": 0.4733999967575073,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "Ministry Of Agriculture and Farmers Welfare Pradhan Mantri Fasal Bima Yojna (PMFBY) AgricultureCropFarmerInsurancePremium Check Eligibility Details Launched on 18th February 2016, \"Pradhan Mantri Fasa"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c06",
+          "score": 0.4611999988555908,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "RISKS COVERED ● Yield Losses (Standing Crops): The Government provides this insurance coverage for yield losses that fall under the non-preventable risks, such as Natural Fire and Lightning: Storm, Ha"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9446,
+      "answer_correctness": 0.8487,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9483,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_005",
+      "scheme": "PMFBY",
+      "question": "What is the maximum farmer premium for annual commercial and horticultural crops?",
+      "reference_answer": "The maximum farmer premium is 5%.",
+      "generated_answer": "Based on the provided context, the maximum premium payable by the farmer for yearly commercial or horticultural crops is 5%.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p1_c03",
+          "score": 0.6237000226974487,
+          "source_document": "PMFBY.pdf",
+          "page_number": 1,
+          "snippet": "practices. ● To ensure crop diversification, and credit-worthiness of the farmers, enhance growth and competitiveness of the agriculture sector and protect the farmers from production risks. Benefits "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.4902999997138977,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.4629000127315521,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c06",
+          "score": 0.4542999863624573,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "RISKS COVERED ● Yield Losses (Standing Crops): The Government provides this insurance coverage for yield losses that fall under the non-preventable risks, such as Natural Fire and Lightning: Storm, Ha"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.923,
+      "answer_correctness": 0.87,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9483,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_006",
+      "scheme": "PMFBY",
+      "question": "What is the maximum indemnity for prevented sowing under PMFBY?",
+      "reference_answer": "The indemnity for prevented sowing can be up to 25% of the sum insured.",
+      "generated_answer": "Based on the provided context, the maximum indemnity for prevented sowing under PMFBY is up to 25% of the sum insured.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.6029999852180481,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.600600004196167,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p3_c11",
+          "score": 0.5781000256538391,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Losses resulting from farmer negligence, non-compliance with recommended agricultural practices, or failure to protect the crop adequately may be excluded. Losses Beyond Specified Limits Some losses b"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c06",
+          "score": 0.5774000287055969,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "RISKS COVERED ● Yield Losses (Standing Crops): The Government provides this insurance coverage for yield losses that fall under the non-preventable risks, such as Natural Fire and Lightning: Storm, Ha"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.8996,
+      "answer_correctness": 0.8784,
+      "groundedness": 0.95,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.932,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_007",
+      "scheme": "PMFBY",
+      "question": "For how long after harvesting are certain post-harvest losses covered?",
+      "reference_answer": "Certain post-harvest losses are covered for up to 14 days for crops that are cut and spread for drying.",
+      "generated_answer": "Based on the provided documents, certain post-harvest losses are covered for up to a maximum of 14 days from harvesting for crops that are stored in a “cut and spread” condition.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.5602999925613403,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        },
+        {
+          "chunk_id": "PMFBY_p3_c11",
+          "score": 0.3961000144481659,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Losses resulting from farmer negligence, non-compliance with recommended agricultural practices, or failure to protect the crop adequately may be excluded. Losses Beyond Specified Limits Some losses b"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c10",
+          "score": 0.38260000944137573,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "Non-Notified Areas PMFBY applies to notified areas, and crop losses in non-notified areas are generally not covered. Farmers in areas not designated under the scheme may not receive compensation. Loss"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c06",
+          "score": 0.35679998993873596,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "RISKS COVERED ● Yield Losses (Standing Crops): The Government provides this insurance coverage for yield losses that fall under the non-preventable risks, such as Natural Fire and Lightning: Storm, Ha"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.9338,
+      "answer_correctness": 0.9259,
+      "groundedness": 0.9455,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9513,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_008",
+      "scheme": "PMFBY",
+      "question": "What documents are required to apply for PMFBY?",
+      "reference_answer": "The listed documents include a passport-size photograph, identity proof, address proof, land records or applicable land-tenure documents, and crop declaration; a passbook is also listed.",
+      "generated_answer": "Based on the provided context, the documents required to apply for PMFBY are:\n\n* **Passport–sized Photograph**\n* **Passbook**\n* **Identity Proof** (Aadhaar Card/PAN Card/Voter ID/Bank Passbook with Photo, Kisan Photo Book/NREGA Job Card)\n* **Land Documents:** A valid and authenticated land ownership certificate or a valid land tenure agreement (which the farmer must possess).",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p4_c16",
+          "score": 0.5444999933242798,
+          "source_document": "PMFBY.pdf",
+          "page_number": 4,
+          "snippet": "Step 7: In the popup window, the following options will be displayed: \"Pay Later\" and \"Make Payment\". Select \"Pay Later\" if you intend to pay for the insurance at a later stage. Else, select \"Make Pay"
+        },
+        {
+          "chunk_id": "PMFBY_p3_c15",
+          "score": 0.5267000198364258,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Click \"Preview\" to carefully review all the information provided and the uploaded documents. Click \"Submit\" to submit your application. You'll receive a confirmation message."
+        },
+        {
+          "chunk_id": "PMUY_p3_c11",
+          "score": 0.5242999792098999,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Who is the eligible beneficiary under ujjwala 2.0? Which Documents are mandatory to be submitted by applicant for enrolment under ujjwala 2.0? If customer possess aadhaar card and connection to be rel"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.5004000067710876,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 4
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8836,
+      "answer_correctness": 0.7642,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.912,
+      "failure_reason": null
+    },
+    {
+      "id": "PMFBY_009",
+      "scheme": "PMFBY",
+      "question": "How can a farmer check the status of a PMFBY application?",
+      "reference_answer": "The application status can be checked through the PMFBY website.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p2_c09",
+          "score": 0.6668999791145325,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "2. Farmers must have an insurable interest in the insured crops. 3. Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement. 4. The farmer must be a "
+        },
+        {
+          "chunk_id": "PMFBY_p3_c14",
+          "score": 0.6151000261306763,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Yourself)\". In the popup window, click \"Login for Farmer\". You will be taken to the Login Page. https://pmfby.gov.in/farmerLogin Step 5: On the Login Page, provide your Mobile Number, fill the Captcha"
+        },
+        {
+          "chunk_id": "PMFBY_p3_c11",
+          "score": 0.6141999959945679,
+          "source_document": "PMFBY.pdf",
+          "page_number": 3,
+          "snippet": "Losses resulting from farmer negligence, non-compliance with recommended agricultural practices, or failure to protect the crop adequately may be excluded. Losses Beyond Specified Limits Some losses b"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.6140999794006348,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.7837,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.6584,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMFBY_010",
+      "scheme": "PMFBY",
+      "question": "Does the supplied PMFBY document specify compensation for crop damage caused by wild animals?",
+      "reference_answer": "The supplied document does not provide enough information to answer this question.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMFBY_p5_c20",
+          "score": 0.6531999707221985,
+          "source_document": "PMFBY.pdf",
+          "page_number": 5,
+          "snippet": "I discovered pest damage in my field but couldn't document it immediately due to hospitalization. Will my claim be rejected? How can I ensure my claim isn't rejected due to wrong information if the CS"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c10",
+          "score": 0.6251999735832214,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "Non-Notified Areas PMFBY applies to notified areas, and crop losses in non-notified areas are generally not covered. Farmers in areas not designated under the scheme may not receive compensation. Loss"
+        },
+        {
+          "chunk_id": "PMFBY_p4_c18",
+          "score": 0.5831000208854675,
+          "source_document": "PMFBY.pdf",
+          "page_number": 4,
+          "snippet": "for crop insurance under PMFBY if I can prove I cultivate the land? My crops were damaged by unseasonal rains after harvesting while drying in the field. Does PMFBY cover such losses? What is the exac"
+        },
+        {
+          "chunk_id": "PMFBY_p2_c07",
+          "score": 0.5681999921798706,
+          "source_document": "PMFBY.pdf",
+          "page_number": 2,
+          "snippet": "crops because of unfavourable weather conditions. These farmers will then become eligible for the indemnity claims of up to a maximum of 25% of the sum insured. ● Post-harvest Losses: The Government p"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 5
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 4
+        }
+      ],
+      "retrieval_relevance": 1.0,
+      "answer_correctness": 1.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 1.0,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_001",
+      "scheme": "PM SVANidhi",
+      "question": "What is the main objective of PM SVANidhi?",
+      "reference_answer": "PM SVANidhi aims to formalize street vendors and enhance their economic opportunities through collateral-free working capital loans, interest subsidy and digital transaction incentives.",
+      "generated_answer": "Based on the provided context, the main objectives of the PM SVANidhi scheme are to:\n\n* **Formalize street vendors** and open up new opportunities for them to move up the economic ladder.\n* **Enhance their economic opportunities** by providing collateral-free working capital loans, interest subsidies, and digital transaction incentives.\n* **Support vendors** in restarting and expanding their businesses.\n* **Promote digital payments** to increase financial inclusion.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c01",
+          "score": 0.5292999744415283,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "Ministry Of Housing & Urban Affairs PM Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi) Affordable CreditDigital EmpowermentEnhanced LivelihoodStreet VendorsWorking Capital Loan Check Eligibility Sign "
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c02",
+          "score": 0.5263000130653381,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "capital loans, interest subsidy, and digital transaction incentives to street vendors. It was launched on 1st June 2020 as a central sector scheme. The scheme supports vendors in restarting and expand"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c03",
+          "score": 0.5235000252723694,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "this sector to move up the economic ladder. Street vendors represent a very important constituent of the urban informal economy and play a significant role in ensuring availability of the goods and se"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.4909999966621399,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.9409,
+      "answer_correctness": 0.883,
+      "groundedness": 0.9756,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9499,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_002",
+      "scheme": "PM SVANidhi",
+      "question": "What is the maximum amount of the first loan tranche and its repayment period?",
+      "reference_answer": "The first tranche is up to ₹15,000 and has a repayment period of 12 months.",
+      "generated_answer": "Based on the provided context, the maximum amount of the first loan tranche is up to ₹15,000/- and its repayment period is within 12 months.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.4657999873161316,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.4221000075340271,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.41510000824928284,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c06",
+          "score": 0.40369999408721924,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Credit Guarantee Support: ● 31.87% guarantee cover for 1st tranche loan. ● 8.25% guarantee cover for 2nd tranche loan. ● 6% guarantee cover for 3rd tranche loan. ● No charges for lending institutions."
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8993,
+      "answer_correctness": 0.8988,
+      "groundedness": 0.92,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9295,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_003",
+      "scheme": "PM SVANidhi",
+      "question": "What are the maximum amounts and repayment periods for the second and third loan tranches?",
+      "reference_answer": "The second tranche is up to ₹25,000 with repayment within 18 months, and the third tranche is up to ₹50,000 with repayment within 36 months.",
+      "generated_answer": "Based on the provided context, the maximum amounts and repayment periods for the second and third loan tranches are:\n\n* **2nd Tranche:** Loan up to ₹25,000/-; repayment within 18 months.\n* **3rd Tranche:** Loan up to ₹50,000/-; repayment within 36 months.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.4722000062465668,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.4318000078201294,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.4097000062465668,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c06",
+          "score": 0.39989998936653137,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Credit Guarantee Support: ● 31.87% guarantee cover for 1st tranche loan. ● 8.25% guarantee cover for 2nd tranche loan. ● 6% guarantee cover for 3rd tranche loan. ● No charges for lending institutions."
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8802,
+      "answer_correctness": 0.9126,
+      "groundedness": 0.9045,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9243,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_004",
+      "scheme": "PM SVANidhi",
+      "question": "What interest subsidy is provided under PM SVANidhi?",
+      "reference_answer": "An interest subsidy of 7% per annum is credited quarterly for standard non-NPA accounts, with the stated validity up to 31 March 2033.",
+      "generated_answer": "Based on the provided documents, the interest subsidy provided under the PM SVANidhi scheme includes:\n* A subsidy at the rate of 7% per annum on the loan amount.\n* It is credited quarterly to the beneficiary’s bank account.\n* It is applicable only for standard (non-NPA) accounts.\n* It is valid up to 31st March 2033.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.6717000007629395,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.6474999785423279,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.6348999738693237,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c05",
+          "score": 0.5978999733924866,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "● Credited quarterly to beneficiary’s bank account. ● Applicable only for standard (non-NPA) accounts. ● Valid up to 31st March 2033. Digital Transaction Cashback: ● Cashback up to ₹100/- per month fo"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.8411,
+      "answer_correctness": 0.8381,
+      "groundedness": 0.9912,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.8801,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_005",
+      "scheme": "PM SVANidhi",
+      "question": "Who is eligible for PM SVANidhi?",
+      "reference_answer": "Eligible vendors include those with a Certificate of Vending or Identity Card, identified vendors without those documents, vendors left out of surveys or who started vending after surveys with a Letter of Recommendation, and certain surrounding/peri-urban/rural vendors vending within ULB limits with a Letter of Recommendation.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.646399974822998,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.5702000260353088,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c05",
+          "score": 0.5637999773025513,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "● Credited quarterly to beneficiary’s bank account. ● Applicable only for standard (non-NPA) accounts. ● Valid up to 31st March 2033. Digital Transaction Cashback: ● Cashback up to ₹100/- per month fo"
+        },
+        {
+          "chunk_id": "PMUY_p2_c05",
+          "score": 0.5303999781608582,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "2. The applicant’s household must not have any existing LPG connection. 3. The applicant woman must belong to any one of the eligible categories. ● SC Households ● ST Households ● Pradhan Mantri Awas "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.7158,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.6414,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMSVAN_006",
+      "scheme": "PM SVANidhi",
+      "question": "What is the maximum monthly cashback incentive for digital transactions?",
+      "reference_answer": "The digital transaction cashback incentive is up to ₹100 per month.",
+      "generated_answer": "Based on the provided context, the maximum monthly cashback incentive for digital transactions is ₹100/- per month.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c05",
+          "score": 0.5482000112533569,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "● Credited quarterly to beneficiary’s bank account. ● Applicable only for standard (non-NPA) accounts. ● Valid up to 31st March 2033. Digital Transaction Cashback: ● Cashback up to ₹100/- per month fo"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c02",
+          "score": 0.33730000257492065,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "capital loans, interest subsidy, and digital transaction incentives to street vendors. It was launched on 1st June 2020 as a central sector scheme. The scheme supports vendors in restarting and expand"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.32910001277923584,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.304500013589859,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.842,
+      "answer_correctness": 0.9058,
+      "groundedness": 0.9,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.8745,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_007",
+      "scheme": "PM SVANidhi",
+      "question": "What are the main steps for applying online for PM SVANidhi?",
+      "reference_answer": "The applicant visits the PM SVANidhi portal, logs in using mobile number and captcha, verifies with OTP, selects the vendor category, provides the mandatory SRN, fills the form, uploads documents and submits the application.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p2_c08",
+          "score": 0.644599974155426,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: Visit https://pmsvanidhi.mohua.gov.in/ and click on the \"Log In\" button on the homepage. Step 2: Enter Mobile number and captcha. Click request OTP. Step 3: After successful login, sel"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.6085000038146973,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c09",
+          "score": 0.5839999914169312,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Manual. ● For any query one can call on the toll free number i.e 1800111979 between 9.30 AM to 6.00 PM on Monday to Saturday except national holidays. ● Contact Details: Click here. Apply Now Document"
+        },
+        {
+          "chunk_id": "PMUY_p2_c05",
+          "score": 0.5422999858856201,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "2. The applicant’s household must not have any existing LPG connection. 3. The applicant woman must belong to any one of the eligible categories. ● SC Households ● ST Households ● Pradhan Mantri Awas "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8643,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.7161,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMSVAN_008",
+      "scheme": "PM SVANidhi",
+      "question": "What documents are listed for the first loan application?",
+      "reference_answer": "For first-loan categories A/B, a Certificate of Vending and Identity Card are listed; for categories C/D, a Letter of Recommendation is listed, along with KYC documents such as Aadhaar, Voter ID, Driving Licence, MNREGA Card or PAN.",
+      "generated_answer": "Based on the provided context, the documents listed for the first loan application are categorized as follows:\n\n**For Category A and B vendors:**\n1. Certificate of Vending\n2. Identity Card\n\n**For Category C and D vendors:**\n1. Letter of Recommendation\n\n**KYC documents required (in addition to Certificate of Vending/Identity Card/Letter of Recommendation):**\n1. Aadhaar Card\n2. Voter Identity Card\n3. Driving License\n4. MNREGA Card\n5. PAN Card\n\n**Documents required for obtaining the Letter of Recommendation:**\n1. Copy of Account Statement/Passbook\n2. Copy of Membership Card/any other proof of membership\n3. Any other document to substantiate the claim as a vendor\n4. Request letter to ULB",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p3_c10",
+          "score": 0.4912000000476837,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "For Category A and B vendors: 1. Certificate of Vending 2. Identity Card For Category C and D vendors: 1. Letter of Recommendation KYC documents required in addition to CoV/ID/LoR : 1. Aadhaar Card 2."
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.44760000705718994,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c09",
+          "score": 0.41130000352859497,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Manual. ● For any query one can call on the toll free number i.e 1800111979 between 9.30 AM to 6.00 PM on Monday to Saturday except national holidays. ● Contact Details: Click here. Apply Now Document"
+        },
+        {
+          "chunk_id": "PMUY_p3_c11",
+          "score": 0.3824000060558319,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Who is the eligible beneficiary under ujjwala 2.0? Which Documents are mandatory to be submitted by applicant for enrolment under ujjwala 2.0? If customer possess aadhaar card and connection to be rel"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.8684,
+      "answer_correctness": 0.8562,
+      "groundedness": 0.9804,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9263,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_009",
+      "scheme": "PM SVANidhi",
+      "question": "When can a vendor receive the next loan tranche, and is there a prepayment penalty?",
+      "reference_answer": "A next tranche is available on timely or early repayment, and there is no prepayment penalty.",
+      "generated_answer": "Based on the provided context:\n\n* **When a vendor can receive the next loan tranche:** The next tranche is available on timely or early repayment of the previous loan.\n* **Prepayment penalty:** There is no prepayment penalty on early repayment.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.3901999890804291,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c06",
+          "score": 0.37369999289512634,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Credit Guarantee Support: ● 31.87% guarantee cover for 1st tranche loan. ● 8.25% guarantee cover for 2nd tranche loan. ● 6% guarantee cover for 3rd tranche loan. ● No charges for lending institutions."
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.3441999852657318,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c05",
+          "score": 0.30869999527931213,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "● Credited quarterly to beneficiary’s bank account. ● Applicable only for standard (non-NPA) accounts. ● Valid up to 31st March 2033. Digital Transaction Cashback: ● Cashback up to ₹100/- per month fo"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.887,
+      "answer_correctness": 0.9079,
+      "groundedness": 0.9098,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9262,
+      "failure_reason": null
+    },
+    {
+      "id": "PMSVAN_010",
+      "scheme": "PM SVANidhi",
+      "question": "What is the age limit for applying for PM SVANidhi?",
+      "reference_answer": "The supplied document does not provide the age limit; it lists the age limit as an FAQ question without an answer.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.6811000108718872,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c05",
+          "score": 0.5008999705314636,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "● Credited quarterly to beneficiary’s bank account. ● Applicable only for standard (non-NPA) accounts. ● Valid up to 31st March 2033. Digital Transaction Cashback: ● Cashback up to ₹100/- per month fo"
+        },
+        {
+          "chunk_id": "PMSVAN_p1_c04",
+          "score": 0.4778999984264374,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1,
+          "snippet": "apparel, footwear, artisan products, books/ stationary, etc. The services include barber shops, cobblers, pan shops, laundry services, etc. Benefits Working Capital Loan: ● 1st Tranche: Loan up to ₹15"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c12",
+          "score": 0.47209998965263367,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "Can an individual apply for the scheme if they have availed of a loan under any other government scheme? What is the repayment period for the loan provided under this scheme? Is collateral required to"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 1.0,
+      "answer_correctness": 1.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 1.0,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_001",
+      "scheme": "PMUY 2.0",
+      "question": "What is the main objective of PMUY 2.0?",
+      "reference_answer": "PMUY provides free LPG connections to women from poor households to promote clean cooking fuel and reduce health risks and environmental pollution.",
+      "generated_answer": "Based on the provided context, the main objective of the Pradhan Mantri Ujjwala Yojana (PMUY) is to promote clean cooking fuel like LPG among rural and deprived families who traditionally rely on firewood, coal, or cow-dung cakes, thereby helping to reduce health risks for women and minimizing environmental pollution.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c01",
+          "score": 0.5839999914169312,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "Ministry Of Petroleum and Natural Gas Pradhan Mantri Ujjwala Yojana 2.0 Cooking FuelHouseholdLPGWomen Check Eligibility Details The Pradhan Mantri Ujjwala Yojana 2.0 (PMUY) was launched in May 2016 by"
+        },
+        {
+          "chunk_id": "PMUY_p1_c02",
+          "score": 0.5781999826431274,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "environmental pollution. Under PMUY 2.0, the scheme was further expanded to reach more beneficiaries across India. ● The target under the scheme was to release 8 Crore LPG Connections to the deprived "
+        },
+        {
+          "chunk_id": "PMUY_p1_c03",
+          "score": 0.4887000024318695,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "● Ujjwala 2.0: Additional allocation of 1.6 Crore LPG Connections under PMUY Scheme with special facility to migrant households. The scheme was launched in Mahoba, Uttar Pradesh by the Hon’ble Prime M"
+        },
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.4657999873161316,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.923,
+      "answer_correctness": 0.8208,
+      "groundedness": 0.955,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9247,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_002",
+      "scheme": "PMUY 2.0",
+      "question": "What cash assistance is provided for a 14.2 kg LPG connection?",
+      "reference_answer": "The cash assistance is ₹1,600 for a 14.2 kg connection.",
+      "generated_answer": "Based on the provided context, the cash assistance provided by the Government of India for a 14.2 kg LPG connection is ₹1600. \n\nThis covers:\n1. Security Deposit of Cylinder: ₹1250\n2. Pressure Regulator: ₹150\n3. LPG Hose: ₹100\n4. Domestic Gas Consumer Card: ₹25",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c03",
+          "score": 0.6061999797821045,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "● Ujjwala 2.0: Additional allocation of 1.6 Crore LPG Connections under PMUY Scheme with special facility to migrant households. The scheme was launched in Mahoba, Uttar Pradesh by the Hon’ble Prime M"
+        },
+        {
+          "chunk_id": "PMUY_p1_c02",
+          "score": 0.49970000982284546,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "environmental pollution. Under PMUY 2.0, the scheme was further expanded to reach more beneficiaries across India. ● The target under the scheme was to release 8 Crore LPG Connections to the deprived "
+        },
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.476500004529953,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        },
+        {
+          "chunk_id": "PMUY_p2_c08",
+          "score": 0.4697999954223633,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. ● KYC Form ● Supplementary KYC Document & Undertaking ● ANNEXURE - I Self-d"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8981,
+      "answer_correctness": 0.6319,
+      "groundedness": 0.95,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.87,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_003",
+      "scheme": "PMUY 2.0",
+      "question": "What is the minimum age required for a PMUY applicant?",
+      "reference_answer": "The applicant must be at least 18 years old.",
+      "generated_answer": "Based on the provided context, the applicant must be at least 18 years old.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.483599990606308,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        },
+        {
+          "chunk_id": "PMSVAN_p3_c11",
+          "score": 0.4458000063896179,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3,
+          "snippet": "What is PM SVANidhi Scheme? Who is eligible to apply for the PM SVANidhi Scheme? What is the age limit to apply for the PM SVANidhi Scheme? What is the maximum loan amount that can be availed under th"
+        },
+        {
+          "chunk_id": "PMUY_p3_c12",
+          "score": 0.4212000072002411,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "submission of KYC under ujjwala 2.0? If the applicant is unable to submit aadhaar card of any adult family member whose name is appearing in ration card or equivalent document issued by state departme"
+        },
+        {
+          "chunk_id": "PMUY_p2_c05",
+          "score": 0.39719998836517334,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "2. The applicant’s household must not have any existing LPG connection. 3. The applicant woman must belong to any one of the eligible categories. ● SC Households ● ST Households ● Pradhan Mantri Awas "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8726,
+      "answer_correctness": 0.9562,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9572,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_004",
+      "scheme": "PMUY 2.0",
+      "question": "Can a household that already has an LPG connection apply for PMUY 2.0?",
+      "reference_answer": "No. The household must not have an existing LPG connection.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c02",
+          "score": 0.7574999928474426,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "environmental pollution. Under PMUY 2.0, the scheme was further expanded to reach more beneficiaries across India. ● The target under the scheme was to release 8 Crore LPG Connections to the deprived "
+        },
+        {
+          "chunk_id": "PMUY_p1_c03",
+          "score": 0.6646999716758728,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "● Ujjwala 2.0: Additional allocation of 1.6 Crore LPG Connections under PMUY Scheme with special facility to migrant households. The scheme was launched in Mahoba, Uttar Pradesh by the Hon’ble Prime M"
+        },
+        {
+          "chunk_id": "PMUY_p2_c08",
+          "score": 0.6535000205039978,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. ● KYC Form ● Supplementary KYC Document & Undertaking ● ANNEXURE - I Self-d"
+        },
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.6297000050544739,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.8456,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.7114,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMUY_005",
+      "scheme": "PMUY 2.0",
+      "question": "What is provided free with a deposit-free PMUY connection?",
+      "reference_answer": "The first LPG refill and stove/hotplate are provided free with the deposit-free connection.",
+      "generated_answer": "Based on the provided context, all PMUY beneficiaries will be provided with the first LPG refill and Stove (hotplate) both free of cost along with their deposit-free connection by the Oil Marketing Companies (OMCs).",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.5297999978065491,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        },
+        {
+          "chunk_id": "PMUY_p1_c03",
+          "score": 0.5163000226020813,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "● Ujjwala 2.0: Additional allocation of 1.6 Crore LPG Connections under PMUY Scheme with special facility to migrant households. The scheme was launched in Mahoba, Uttar Pradesh by the Hon’ble Prime M"
+        },
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.47780001163482666,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        },
+        {
+          "chunk_id": "PMUY_p4_c13",
+          "score": 0.4625000059604645,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 4,
+          "snippet": "PMUY connection can be released to poor household with no female adult member? Is aadhaar Authentication (E-KYC) is mandatory for connections enrolled under ujjwala 2.0? if so, how it is carried out?"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 4
+        }
+      ],
+      "retrieval_relevance": 0.8385,
+      "answer_correctness": 0.8348,
+      "groundedness": 1.0,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.8808,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_006",
+      "scheme": "PMUY 2.0",
+      "question": "Which categories can qualify for PMUY 2.0?",
+      "reference_answer": "The listed eligible categories include SC, ST, PMAY-G, Most Backward Classes, AAY, tea/ex-tea garden tribes, forest dwellers, island or river-island residents, SECC households, and poor households meeting the stated 14-point declaration criterion.",
+      "generated_answer": "Based on the provided context, the Pradhan Mantri Ujjwala Yojana 2.0 (PMUY) provides free LPG connections to women from poor households, aiming to promote clean cooking fuel among rural and deprived families who traditionally rely on firewood, coal, or cow-dung cakes. \n\nAdditionally, the eligibility criteria specified in the documents state that:\n1. The applicant must be at least 18 years old.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c01",
+          "score": 0.5097000002861023,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "Ministry Of Petroleum and Natural Gas Pradhan Mantri Ujjwala Yojana 2.0 Cooking FuelHouseholdLPGWomen Check Eligibility Details The Pradhan Mantri Ujjwala Yojana 2.0 (PMUY) was launched in May 2016 by"
+        },
+        {
+          "chunk_id": "PMUY_p1_c02",
+          "score": 0.48100000619888306,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "environmental pollution. Under PMUY 2.0, the scheme was further expanded to reach more beneficiaries across India. ● The target under the scheme was to release 8 Crore LPG Connections to the deprived "
+        },
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.46700000762939453,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        },
+        {
+          "chunk_id": "PMUY_p3_c12",
+          "score": 0.42559999227523804,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "submission of KYC under ujjwala 2.0? If the applicant is unable to submit aadhaar card of any adult family member whose name is appearing in ration card or equivalent document issued by state departme"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        }
+      ],
+      "retrieval_relevance": 0.723,
+      "answer_correctness": 0.3111,
+      "groundedness": 0.9051,
+      "citation_correctness": 0.85,
+      "reliability_score": 0.6973,
+      "failure_reason": "Factual mismatch: Answer correctness score (0.31) below threshold."
+    },
+    {
+      "id": "PMUY_007",
+      "scheme": "PMUY 2.0",
+      "question": "What are the main steps for applying online for PMUY 2.0?",
+      "reference_answer": "The applicant selects New Ujjwala 2.0 and an LPG company on the official website, enters registration details and OTP, completes KYC and family/address/bank/cylinder/declaration information, receives a reference number, prints the application and visits the gas agency.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.6193000078201294,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        },
+        {
+          "chunk_id": "PMUY_p2_c08",
+          "score": 0.5579000115394592,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. ● KYC Form ● Supplementary KYC Document & Undertaking ● ANNEXURE - I Self-d"
+        },
+        {
+          "chunk_id": "PMSVAN_p2_c08",
+          "score": 0.5565999746322632,
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: Visit https://pmsvanidhi.mohua.gov.in/ and click on the \"Log In\" button on the homepage. Step 2: Enter Mobile number and captcha. Click request OTP. Step 3: After successful login, sel"
+        },
+        {
+          "chunk_id": "PMUY_p3_c11",
+          "score": 0.5565000176429749,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Who is the eligible beneficiary under ujjwala 2.0? Which Documents are mandatory to be submitted by applicant for enrolment under ujjwala 2.0? If customer possess aadhaar card and connection to be rel"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PM SVANidhi",
+          "source_document": "PMSVAN.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.8558,
+      "answer_correctness": 0.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.7139,
+      "failure_reason": "Generation failure: Model refused an answerable question due to retrieval/context gap."
+    },
+    {
+      "id": "PMUY_008",
+      "scheme": "PMUY 2.0",
+      "question": "What documents are required for PMUY 2.0?",
+      "reference_answer": "The listed documents include KYC, ration card or the applicable family-composition document/self-declaration for migrants, Aadhaar of the beneficiary and adult family members, proof of address, and a bank account with IFSC.",
+      "generated_answer": "Based on the provided documents, the documents required for PMUY 2.0 include:\n\n1. Know Your Customer (KYC)\n2. Ration Card issued by the State from which application is being made / other (as listed under \"Documents Required\" in Source 3). \nAdditionally, Source 3 mentions that the documents typically include proof of identity, proof of address, and proof of BPL category, and Source 2 lists the following offline forms and documents:\n- KYC Form\n- Supplementary KYC Document & Undertaking\n- ANNEXURE - I Self-declaration for Family Composition and Address for release of new connection under PMUY (for Migrant only)\n- ANNEXURE - II Mechanics Pre-Installation check of Customers Premises for LPG connection",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p3_c11",
+          "score": 0.6394000053405762,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Who is the eligible beneficiary under ujjwala 2.0? Which Documents are mandatory to be submitted by applicant for enrolment under ujjwala 2.0? If customer possess aadhaar card and connection to be rel"
+        },
+        {
+          "chunk_id": "PMUY_p2_c08",
+          "score": 0.607699990272522,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. ● KYC Form ● Supplementary KYC Document & Undertaking ● ANNEXURE - I Self-d"
+        },
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.6049000024795532,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        },
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.5386000275611877,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.8287,
+      "answer_correctness": 0.7763,
+      "groundedness": 0.9655,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.8926,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_009",
+      "scheme": "PMUY 2.0",
+      "question": "When can Aadhaar be used as both proof of identity and proof of address?",
+      "reference_answer": "When the beneficiary's address is the same as the Aadhaar address, Aadhaar can serve as both proof of identity and proof of address.",
+      "generated_answer": "Based on the provided context, Aadhaar can be used as Proof of Identity and Proof of Address if the connection is required in the same address.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p3_c10",
+          "score": 0.5486000180244446,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "2. Ration Card issued by the State from which application is being made/ other State Govt. document certifying family composition/ Self-Declaration as per Annexure I (for migrant applicants) 3. Aadhaa"
+        },
+        {
+          "chunk_id": "PMUY_p3_c11",
+          "score": 0.46129998564720154,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Who is the eligible beneficiary under ujjwala 2.0? Which Documents are mandatory to be submitted by applicant for enrolment under ujjwala 2.0? If customer possess aadhaar card and connection to be rel"
+        },
+        {
+          "chunk_id": "PMFBY_p4_c17",
+          "score": 0.41589999198913574,
+          "source_document": "PMFBY.pdf",
+          "page_number": 4,
+          "snippet": "Kisan Photo Book/NREGA Job Card) ● Address Proof (Aadhaar Card/PAN Card/Voter ID/Electricity Bill/Bank Passbook with Photo). ● Evidence of Land records, as per the State Records of Right (RoR), Land P"
+        },
+        {
+          "chunk_id": "PMUY_p4_c13",
+          "score": 0.4034999907016754,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 4,
+          "snippet": "PMUY connection can be released to poor household with no female adult member? Is aadhaar Authentication (E-KYC) is mandatory for connections enrolled under ujjwala 2.0? if so, how it is carried out?"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMFBY",
+          "source_document": "PMFBY.pdf",
+          "page_number": 4
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 4
+        }
+      ],
+      "retrieval_relevance": 0.9042,
+      "answer_correctness": 0.8699,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9435,
+      "failure_reason": null
+    },
+    {
+      "id": "PMUY_010",
+      "scheme": "PMUY 2.0",
+      "question": "What is the exact processing fee for a PMUY 2.0 application?",
+      "reference_answer": "The supplied document does not specify the exact processing fee; it only includes processing fee among the FAQ topics.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "PMUY_p1_c04",
+          "score": 0.5971999764442444,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "4. Domestic Gas Consumer Card – ₹25. 5. Inspection/ Installation/ Demonstration charges – ₹75. Additionally, All PMUY beneficiaries will be provided with first LPG refill and Stove (hotplate) both fre"
+        },
+        {
+          "chunk_id": "PMUY_p3_c09",
+          "score": 0.5232999920845032,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3,
+          "snippet": "Step 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference. Step 3: Attach the necessary documents along "
+        },
+        {
+          "chunk_id": "PMUY_p2_c08",
+          "score": 0.45969998836517334,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2,
+          "snippet": "Offline Step 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. ● KYC Form ● Supplementary KYC Document & Undertaking ● ANNEXURE - I Self-d"
+        },
+        {
+          "chunk_id": "PMUY_p1_c03",
+          "score": 0.44449999928474426,
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1,
+          "snippet": "● Ujjwala 2.0: Additional allocation of 1.6 Crore LPG Connections under PMUY Scheme with special facility to migrant households. The scheme was launched in Mahoba, Uttar Pradesh by the Hon’ble Prime M"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 3
+        },
+        {
+          "scheme": "PMUY 2.0",
+          "source_document": "PMUY2.0.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 1.0,
+      "answer_correctness": 1.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 1.0,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_001",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What is the main objective of the AYUSH Health and Wellness Centre scheme?",
+      "reference_answer": "The scheme aims to provide accessible, affordable and holistic healthcare based on Ayurveda, Yoga, Unani and Homeopathy for all age groups.",
+      "generated_answer": "Based on the provided context, the main objective of the scheme is to provide accessible, affordable, and holistic healthcare services based on Ayurveda, Yoga, Unani and Homeopathy systems to people of all age groups.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.7753000259399414,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.7269999980926514,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.6985999941825867,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.5619999766349792,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9443,
+      "answer_correctness": 0.9457,
+      "groundedness": 0.9455,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9589,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_002",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "Who implements the AYUSH Health and Wellness Centre scheme in Uttarakhand?",
+      "reference_answer": "The scheme is implemented by the Ayush Department, Government of Uttarakhand.",
+      "generated_answer": "The Ayush Department, Government of Uttarakhand.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.8184999823570251,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.7911999821662903,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.7491000294685364,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.66839998960495,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9255,
+      "answer_correctness": 0.9081,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9584,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_003",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "Who is eligible to receive services from AYUSH Health and Wellness Centres?",
+      "reference_answer": "Residents of Uttarakhand of any age group are eligible, provided they are registered at a government-recognized Ayurvedic, Unani or Homeopathic dispensary or hospital.",
+      "generated_answer": "Based on the provided context, the eligibility conditions for beneficiaries are:\n1. The beneficiary must be a resident of Uttarakhand.\n2. The beneficiary may belong to any age group.\n3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or Homeopathic dispensary or hospital.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.7760000228881836,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.7218999862670898,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.7210999727249146,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.7017999887466431,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.9379,
+      "answer_correctness": 0.8751,
+      "groundedness": 0.9571,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9425,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_004",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "How many AYUSH Health and Wellness Centres are operating in Uttarakhand according to the document?",
+      "reference_answer": "The document states that 300 AYUSH Health and Wellness Centres are operating in Uttarakhand.",
+      "generated_answer": "A total of 300 AYUSH Health and Wellness Centres are operating in the state of Uttarakhand.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.7509999871253967,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.7397000193595886,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.7199000120162964,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.6100999712944031,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.8691,
+      "answer_correctness": 0.9503,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9548,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_005",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What diseases are screened and diagnosed at the AYUSH Health and Wellness Centres?",
+      "reference_answer": "The centres screen and diagnose non-communicable diseases including diabetes, hypertension, oral cancer, breast cancer and cervical cancer.",
+      "generated_answer": "Based on the provided context, the non-communicable diseases screened and diagnosed at these centres are:\n- Diabetes\n- Hypertension\n- Oral cancer\n- Breast cancer\n- Cervical cancer",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.666700005531311,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.6567000150680542,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.6172000169754028,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.5291000008583069,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.9247,
+      "answer_correctness": 0.9062,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9577,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_006",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What types of healthcare and wellness services are provided at the centres?",
+      "reference_answer": "The centres provide medicines according to disease, yoga and naturopathy where appropriate, counselling, nature testing, seasonal routines, screening and diagnosis of non-communicable diseases, and distribution of medicinal plants.",
+      "generated_answer": "Based on the provided documents, the healthcare and wellness services provided at the centres include:\n\n* Accessible, affordable, and holistic healthcare services based on Ayurveda, Yoga, Unani, and Homeopathy systems for people of all age groups.\n* Distribution of medicines according to the specific disease.\n* Yoga and naturopathy treatments provided as per the condition.\n* Counselling based on nature testing and seasonal routines.\n* Screening and diagnosis of non-communicable diseases such as diabetes, hypertension, oral cancer, breast cancer, and cervical cancer.\n* Distribution of medicinal plants.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.527899980545044,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.5163999795913696,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.49129998683929443,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.39579999446868896,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.8873,
+      "answer_correctness": 0.865,
+      "groundedness": 0.9463,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9246,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_007",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What are the OPD charges at AYUSH Health and Wellness Centres?",
+      "reference_answer": "The OPD charge is ₹1 in rural areas and ₹2 in urban areas.",
+      "generated_answer": "Based on the provided context, the OPD charges are fixed at ₹1.00 per person in rural areas and ₹2.00 per person in urban areas.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.7429999709129333,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.5810999870300293,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.5740000009536743,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.5324000120162964,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9093,
+      "answer_correctness": 0.8955,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9512,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_008",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "How can a person register for services at an AYUSH Health and Wellness Centre?",
+      "reference_answer": "Registration is done offline at a recognized dispensary or hospital.",
+      "generated_answer": "Based on the provided documents, a person can register for services through the offline application process by registering at a government-recognized Ayurvedic, Unani, or Homeopathic dispensary or hospital.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.7688999772071838,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.736299991607666,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.6879000067710876,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.6376000046730042,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 0.8845,
+      "answer_correctness": 0.8036,
+      "groundedness": 0.9368,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9062,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_009",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What documents are required for registration at an AYUSH Health and Wellness Centre?",
+      "reference_answer": "The document lists registration proof, identity proof and other required documents for registration.",
+      "generated_answer": "Based on the provided context, the documents required are:\n\n1. Registration Proof at the Government Ayurvedic/Unani/Homeopathic Dispensary or Hospital\n2. Identity Proof\n3. Any other document as required",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.7075999975204468,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        },
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.6868000030517578,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.593999981880188,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.541100025177002,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        }
+      ],
+      "retrieval_relevance": 0.9106,
+      "answer_correctness": 0.8179,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 0.9321,
+      "failure_reason": null
+    },
+    {
+      "id": "AYUSH_010",
+      "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+      "question": "What is the exact waiting time for receiving treatment after registration at an AYUSH Health and Wellness Centre?",
+      "reference_answer": "The supplied document does not provide sufficient information about the exact waiting time after registration.",
+      "generated_answer": "The provided government scheme documents do not contain sufficient information to answer this question.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": "AYUSH_p2_c04",
+          "score": 0.6324999928474426,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2,
+          "snippet": "Who is eligible to benefit from this scheme? What is the eligibility condition for registration? How many AYUSH Health and Wellness Centres are operating in Uttarakhand? What type of healthcare servic"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c02",
+          "score": 0.6036999821662903,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Benefits A total of 300 AYUSH Health and Wellness Centres are operating in the state. At these centres, medicines are distributed according to the specific disease, and yoga and naturopathy treatments"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c01",
+          "score": 0.572700023651123,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Uttarakhand AYUSH Health and Wellness Centre - Ayushman Bharat Yojana AyurvedicAYUSHHealth And WellnessHomeopathyMedicinal PlantsUnaniYoga Details The “AYUSH Health and Wellness Centre - Ayushman Bhar"
+        },
+        {
+          "chunk_id": "AYUSH_p1_c03",
+          "score": 0.5482000112533569,
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1,
+          "snippet": "Eligibility 1. The beneficiary must be a resident of Uttarakhand. 2. The beneficiary may belong to any age group. 3. The beneficiary must be registered at a government-recognized Ayurvedic, Unani, or "
+        }
+      ],
+      "citations": [
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 2
+        },
+        {
+          "scheme": "AYUSH Health and Wellness Centre - Ayushman Bharat Yojana",
+          "source_document": "AYUSHHWC.pdf",
+          "page_number": 1
+        }
+      ],
+      "retrieval_relevance": 1.0,
+      "answer_correctness": 1.0,
+      "groundedness": 1.0,
+      "citation_correctness": 1.0,
+      "reliability_score": 1.0,
+      "failure_reason": null
+    }
+  ]
+}
